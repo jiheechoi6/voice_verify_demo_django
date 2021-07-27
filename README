@@ -1,0 +1,3 @@
+To run https server:
+browserify vv_demo_django/frontend/static/controller.js > vv_demo_django/frontend/static/bundle.js
+python3 manage.py runsslserver 192.168.0.176:3000 --certificate sslcert/cert.pem --key sslcert/cert.key

@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'api',
     'frontend',
-    'corsheaders',
+    # 'corsheaders',
     'django.contrib.sites',
     'sslserver',
 ]
@@ -58,7 +58,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
+    # 'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'vv_demo_django.urls'

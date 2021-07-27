@@ -1,3 +1,5 @@
 django
 djangorestframework
 django-sslserver
+django-werkzeug-debugger-runserver
+requests
